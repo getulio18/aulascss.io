@@ -27,9 +27,7 @@
 #d4{
     background-image: linear-gradient(to bottom, violet, yellow);
 }
-#d5{
- 
-}
+
 #d1:hover{
 width: 400px;
 height: 400px;
@@ -48,5 +46,16 @@ background-color: blue;
 #d4:hover{
     transform: translate(400px);
 }
-
+#botao{
+    background-color: green;
+    position: absolute;
+    top: 40px; right: 40px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+}
+#botao:hover{
+    background-color: blue;
+    color: white;
+}
                
